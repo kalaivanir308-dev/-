@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trainer Session Attendance Dashboard</title>
+</head>
+<body>
+
+    <h2>Trainer Session Attendance Dashboard</h2>
+
+    <h3>Scenario:</h3>
+    <p>
+        Training managers need a system to track daily student attendance
+        across multiple batches.
+    </p>
+
+    <h3>Key Features:</h3>
+    <ul>
+        <li>Mark attendance (Present/Absent)</li>
+        <li>View batch-wise attendance</li>
+        <li>Date-wise filtering</li>
+        <li>Attendance percentage calculation</li>
+    </ul>
+
+    <h3>Mark Attendance</h3>
+
+    <form>
+        <label>Student Name:</label>
+        <input type="text" name="student"><br><br>
+
+        <label>Batch:</label>
+        <select>
+            <option>Batch A</option>
+            <option>Batch B</option>
+            <option>Batch C</option>
+        </select><br><br>
+
+        <label>Date:</label>
+        <input type="date"><br><br>
+
+        <label>Status:</label>
+        <input type="radio" name="attendance"> Present
+        <input type="radio" name="attendance"> Absent
+        <br><br>
+
+        <button type="submit">Submit Attendance</button>
+    </form>
+
+</body>
+</html>
